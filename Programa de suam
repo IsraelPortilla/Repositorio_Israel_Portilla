@@ -1,0 +1,15 @@
+include<iostream>
+#include<stdio.h>
+
+int main(){
+float a,b,suma;
+printf("Programa de la suma\n");
+
+printf("Ingrse una numero\n");
+scanf("%f",&a);
+printf("Ingrse una numero\n");
+scanf("%f",&b);
+suma=a+b;
+printf("El numero ingresado es:%.1f\n",suma);//se utiliza %.2 para señalar el numero de decimales que quieres presentar
+system("pause");
+}
